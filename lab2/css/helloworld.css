@@ -1,0 +1,45 @@
+
+img {
+  width: 35%;
+  height: auto;
+  align-self:
+  margin:auto;
+  display: inline;
+  padding: 5px;
+}
+table {
+  width: 100%;
+  text-align: center;
+}
+#middle_cell {
+  width: 50%;
+}
+h1 {
+  margin: auto;
+  font-size: 300%;
+  font: Times New Roman;
+}
+hr {
+  border-style: solid;
+  height: 0px;
+}
+body {
+  background-color: #1a508b;
+}
+div {
+position: absolute;
+top: 35%;
+left: 30%;
+right: 30%;
+bottom: 35;
+background-color: #fff3e6;
+}
+
+#main-page{
+  border: 2px solid black;
+  padding: 5px;
+}
+
+p{
+  font: Times New Roman;
+}

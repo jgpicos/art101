@@ -1,3 +1,18 @@
-body {
-  color: green;
+nav {
+  color: blue;
+}
+a {
+  color: yellow;
+}
+#lab4 {
+  color: orange;
+}
+#a_lab4 {
+  color: orange;
+}
+.ul_li_color {
+  color: red;
+}
+.ul_li_color_5 {
+  color: yellow;
 }
