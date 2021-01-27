@@ -1,0 +1,35 @@
+body {
+  background-color: #456268;
+}
+h1 {
+  text-align: center;
+  width: 10;
+  background-color: #d0e8f2;
+}
+hr {
+  border: none;
+  height: 50px;
+}
+table{
+  height: 50%;
+  table-layout: fixed;
+  margin-left: 5%;
+  width: 90%;
+  text-align: center;
+}
+#videoholder{
+  padding: 10px;
+  background-color: #d0e8f2;
+  text-align: center;
+}
+img {
+  height: auto;
+}
+#imageholder{
+  padding: 10px;
+  background-color: #d0e8f2;
+  text-align: center;
+}
+video {
+  width: 90%;
+}

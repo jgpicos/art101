@@ -1,0 +1,26 @@
+body {
+  background-color: #282828;
+}
+
+div {
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #D3D3D3;
+  text-align: center;
+  padding: 10px;
+  border-style: solid;
+  border-width: thick;
+}
+
+img {
+  width: 200px;
+}
+
+table {
+  width: 40%;
+  table-layout: fixed;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+}
