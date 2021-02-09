@@ -1,0 +1,55 @@
+html {
+  background-color: gray;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+body {
+  margin: auto;
+  max-width: 90%;
+  height: 100%;
+  position: relative;
+  background-color: white;
+  border-radius: 0px 30px;
+}
+
+p {
+  word-wrap: normal;
+}
+
+h2 {
+  background-color: #51c2d5;
+  width: auto;
+  font-size: 150%;
+}
+
+img {
+  width: 70%;
+}
+
+div {
+  background-color: inherit;
+}
+
+#mainHolder {
+  padding: 10px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#container {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.columns {
+  display: table-cell;
+  padding: 1%;
+}
+
+#contentEnd {
+  border-radius: 0px 30px;
+}
