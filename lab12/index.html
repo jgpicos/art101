@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lab 12 - Conditionals</title>
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src = "js/lab.js" defer></script>
+</head>
+<body>
+	<div id="heading">
+			<p>Lab 12</p>
+			<p>Jason Blecman and Jesus Picos</p>
+	</div>
+	<div id="center">
+		<p id="bigWords">&#128302; Conditionals &#128302;</p>
+	</div>
+	<div id="double">
+		<div class="column">
+			<h2 id = "challengeTitle">Challenge</h2>
+			<p>Working with your partner, create a function that depends on conditionals.</p>
+			<div id="challengeOutput"></div>
+			<h2 id = "designTitle">Design</h2>
+			<p>This design is a more of a night mode style of web page. We wanted to
+				make it easier on the eyes while still looking nice.
+			</p>
+			<div id="designOutput"></div>
+		</div>
+		<div class="column">
+			<h2 id = "problemTitle">Problems</h2>
+			<p>
+				Jason - I was completely oblivious to the fact (once again) that
+				JavaScript uses brackets, not curly braces for arrays. I spent
+				probably 10 more minutes than I should have working on trying to
+				figure out why it was throwing a fit over it not being able to
+				access my array of Hogwarts houses. I originally had a big if()
+				else if() else if() etc block for handling those cases but I
+				eventually changed that to just working with an array after
+				applying the modulus. I also forgot that charAt() is a FUNCTION…
+				not an accessor. I kept trying to do str.charAt[i], not
+				str.charAt(i) which threw a bunch of errors.
+				<br>
+				<br>
+				Jesus - First of all the audacity “Position: Absolute” has is
+				tremendous. I had to fiddle around for so long to make a semi
+				decent looking top hat (I would have tried to recreate the sorting
+				hat using css and HTML but I value my sanity). In order to place
+				my divs so that they would resemble a hat, I tried position fixed
+				but the divs just followed as i Scrolled so I looked it up and I
+				needed absolute. After painstakingly fixing it into place everything
+				else was a breeze.
+			</p>
+		</div>
+	</div>
+	<div id="problemOutput">
+		<hr>
+	</div>
+	<div id="result">
+		<h2 id="blank">&#9889; Results &#9889;</h2>
+		<div id="topCircle">
+		</div>
+		<div id="middle">
+			<div id="light">
+				<label for="button">Enter your name to find out your house!</label><br>
+				<input type="text" id="input" value="What's your name?">
+				<input type="button" id="button" value="submit"><br><br>
+			</div>
+		</div>
+		<div id="bottomCircle">
+		</div>
+		<div id="spacer">
+			<p>a</p>
+		</div>
+		<h2 id="output">Your House Will ~Magically~ Appear!!!</h2>
+	</div>
+</body>
+</html>

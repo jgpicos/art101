@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lab 11 - Libraries & jQuery</title>
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src = "js/lab.js"></script>
+</head>
+<body>
+	<div id="heading">
+			<p>Lab 11</p>
+			<p>Jason Blecman and Jesus Picos</p>
+	</div>
+	<div id="center">
+		<p id="bigWords">Libraries & jQuery</p>
+	</div>
+	<div id="double">
+		<div class="column">
+			<h2 id = "challengeTitle">Challenge</h2>
+			<p>Working with your partner, experiment with jQuery.</p>
+			<div id="challengeOutput"></div>
+			<h2 id = "designTitle">Design</h2>
+			<p>This design is a more of a night mode style of web page. We wanted to
+				make it easier on the eyes while still looking nice.
+			</p>
+			<div id="designOutput"></div>
+		</div>
+		<div class="column">
+			<h2 id = "problemTitle">Problems</h2>
+			<p>
+				Jason - My biggest problem here was having to reuse my old
+				JavaScript functions from Lab7, and reworking
+				CaseInsensitiveSort() to accept a string instead of an array.
+				Then inside that I split the string, sorted it, and then
+				recombined it all in the same line (technically). My next hard
+				part was getting the output to look fancy, but that was easy with
+				.innerHTML.
+				<br>
+				<br>
+				Jesus - The heading was still the most difficult part of the html
+				and css aspects. Once I was able to make all the words stay on the
+				same line I tried to make the heading “fixed” which stactter the words
+				far beyond the div constraints. After forcing them all back into their
+				rightful div I chose a nice color palette and encased all the H2s in
+				soft rounded rectangles to spice the page up. Without the hr underneath
+				them the text below was too close to the h2 but i figured out that by
+				increasing the line height and the margin-bottom I could negate that.
+			</p>
+		</div>
+	</div>
+	<div id="problemOutput">
+		<hr>
+	</div>
+	<div id="result">
+		<h2 id="blank">Results</h2>
+		<div id="output">
+
+		</div>
+	</div>
+</body>
+</html>
