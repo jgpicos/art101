@@ -12,8 +12,15 @@ function submitBio() {
 }
 document.getElementById("submit_bio_id").addEventListener("click", submitBio);
 
-function colorChange() {
-  document.getElementById("name_email_id").style.color = "blue";
-}
+//function colorChange() {
+  //document.getElementById("name_email_id").style.color = "blue";
+//  document.getElementById("name_email_id").className += "color_me"
+//}
 
-document.getElementById("colors").addEventListener("click", colorChange);
+$("#color_me_id").click(function() {
+  $("#name_email_id").toggleClass("color_me")
+})
+
+
+
+//document.getElementById("color_me_id").addEventListener("click", colorChange);

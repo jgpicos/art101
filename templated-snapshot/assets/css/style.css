@@ -1,0 +1,11 @@
+div.media a img{border: solid 10px yellow;}
+#banner a.button{color:yellow;}
+.info{
+  font-size: 2em;
+}
+
+.color_me{
+  color:green;
+  background-color: yellow;
+
+}
