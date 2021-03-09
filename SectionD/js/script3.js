@@ -18,19 +18,18 @@ var original_text = $("#must_match").text();
 
 function matchingFunction(){
   var input_text = $("#inputed_text").val();
-  console.log("in "+input_text);
   var sub_string = original_text.substring(0,input_text.length);
-  console.log("sub "+sub_string);
-  if (inputed_text==original_text) {
+  console.log("Typed: "+inputed_text+sub_string);
+  if (inputed_text == original_text) {
     $("#inputed_text").css('border-color','green');
   }
   else if (inputed_text == sub_string) {
     $("#inputed_text").css('border-color','blue');
   }
-  // else {
-  //   $("#inputed_text").css('border-color','red');
-  //
-  // }
+  else {
+    $("#inputed_text").css('border-color','red');
+
+  }
 }
 
 $("#inputed_text").keyup(matchingFunction);
